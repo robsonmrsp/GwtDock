@@ -1,34 +1,98 @@
-/** Add css rules here for your application. */
-
-
-/** Example rules used by the template application (remove for your app) */
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #777777;
-  margin: 40px 0px 70px;
-  text-align: center;
+.dock-container {
+	height: 50px;
+	background: url(images/dock-bg.gif);
+	overflow: visible;
+	-webkit-border-radius: 20px 20px 0px  0px;
+	-moz-border-radius: 20px 20px 0px  0px;
+	border-radius: 20px 20px 0px  0px;
+	-webkit-box-shadow: 0px 0px 15px #888888;
+	box-shadow: 0px 0px 25px #888888;
 }
 
-.sendButton {
-  display: block;
-  font-size: 16pt;
+.top-dock-item {
+	top: 10px !important;
+	left: 0;
+	position: absolute !important;
+
 }
 
-/** Most GWT widgets already have a style name defined */
-.gwt-DialogBox {
-  width: 400px;
+.bottom-dock-item {
+	bottom: 0px !important;
+	left: 0;
+	position: absolute !important;
+
 }
 
-.dialogVPanel {
-  margin: 5px;
+.dock-item {
+	top: 10px !important;
+	left: 0;
+	position: absolute !important;
 }
 
-.serverResponseLabelError {
-  color: red;
+.item-text { /* 	background-color: blue; */
+	width: inherit;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
 }
 
-/** Set ids using widget.getElement().setId("idOfElement") */
-#closeButton {
-  margin: 15px 6px 6px;
+#dock {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+}
+
+/*bottom*/
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+
+.dock-container2 {
+	position: absolute;
+	height: 50px;
+	background: url(images/dock-bg.gif);
+	padding-left: 20px;
+}
+
+a.dock-item2 {
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px;
+	color: #000;
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+
+.dock-item2 img {
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
+}
+
+.vehicle_window { /* 	width: 200px !important; */
+	background-color: #f3f7f8 !important;
+	border-color: #a2bcec !important;
+	border-style: solid;
+	border-width: 1px !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 25px #888888;
+	box-shadow: 0px 0px 25px #888888;
+	/*    color: #FFFFFF;*/
+	font-size: 10pt;
+	font-weight: bold;
+	height: auto;
+	padding: 4px;
 }
