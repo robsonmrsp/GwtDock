@@ -65,7 +65,6 @@ public class DockMenu extends LayoutContainer {
 
 		int offsetWidth = this.getOffsetWidth();
 		int offsetHeight = this.getOffsetHeight();
-		System.out.println("DockMenu.anime()" + offsetWidth);
 		if (horizontalAlign.equals("center"))
 			posx = point.x - containerX - (offsetWidth - itemWidth * dockItems.size()) / 2 - itemWidth / 2;
 		else if (horizontalAlign.equals("right"))
