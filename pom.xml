@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.mr.dock</groupId>
 	<artifactId>DockApp</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>br.com.mr.dock.Dock</name>
 
